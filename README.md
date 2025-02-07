@@ -27,7 +27,7 @@ Este projeto é uma aplicação simples que permite adicionar amigos a uma lista
 
 - HTML
 - JavaScript
-
+- CSS
 
 ## Como Executar
 
