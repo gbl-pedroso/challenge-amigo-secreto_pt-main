@@ -22,6 +22,7 @@ listaAmigos.push(amigo);
 atualizarLista();
 input.value = "";
 
+
 }
 
 function atualizarLista(){
@@ -53,5 +54,11 @@ function sortearAmigo(){
     item.textContent = amigoSorteado
     lista.appendChild(item)
     filtered = filter
-} 
+
+    } 
     
+    document.getElementById('amigo').addEventListener('keydown', function(event) {
+        if (event.key === 'Enter') {
+            adicionarAmigo();
+        }
+    });
