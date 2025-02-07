@@ -53,7 +53,7 @@ function sortearAmigo(){
     let  item = document.createElement('li');
     item.textContent = amigoSorteado
     lista.appendChild(item)
-    filtered = filter
+    
 
     } 
     
